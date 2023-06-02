@@ -1,5 +1,5 @@
-gpgit (0~20230602+git.583dc761-1) UNREEASED; urgency=medium
+gpgit (0~20230602+git.583dc761-1) unstable; urgency=medium
 
   * Initial Release.
 
- -- Felix Jacobi <Felix@jacobi-hamburg.net>  Fri, 02 Jun 2023 20:50:53 +0200
+ -- Felix Jacobi <Felix@jacobi-hamburg.net>  Fri, 02 Jun 2023 22:02:47 +0200
