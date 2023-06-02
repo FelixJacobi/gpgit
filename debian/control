@@ -15,7 +15,7 @@ Depends: ${misc:Depends},
   ${perl:Depends},
   libmail-gnupg-perl,
   libmime-tools-perl,
-Description: gpgit
+Description: Tool to Automatically Encrypt all Incoming Email
   This application takes one argument on the command line. The email address to
   look up the public key that the message will be encrypted with. An email
   message is piped through the application, and the resulting email is sent to
@@ -30,12 +30,12 @@ Description: gpgit
   Exim users can use the transport_filter directive in a transport in order to
   call this application, like so:
   .
-    transport_filter = /bin/gpgit.pl my.email.address@example.com
+  transport_filter = /usr/share/gpgit/gpgit.pl my.email.address@example.com
   .
   Procmail users can add a procmail recipe as follows
   .
-    :0 f
-    | /bin/gpgit.pl my.email.address@example.com
+  :0 f
+  | /bin/gpgit.pl my.email.address@example.com
   .
   If you call gpgit.pl from a different application, I'd love to hear from you so
   I can update this README file.
