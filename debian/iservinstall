@@ -1,0 +1,2 @@
+gpgit.pl      usr/share/gpgit
+{TODO,README} usr/share/doc/${env:FULLPKG}
